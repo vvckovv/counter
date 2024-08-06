@@ -61,11 +61,20 @@ body {
 }
 
 #minus-btn {
-    background-color: transparent;
-    border: none;
+    background-color: #D926A9;
+    border: 10px;
+    width: 45px;
     border-radius: 5px;
-    color: #393F47;
+    color: #fff;
     cursor: pointer;
+}
+
+#minus-btn:hover {
+    background-color: #D926A9;
+}
+
+#minus-btn:active {
+    background-color: #a12a81;
 }
 
 #reset-btn {
