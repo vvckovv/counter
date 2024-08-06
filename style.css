@@ -33,6 +33,10 @@ body {
     color: #A6ADBA;
 }
 
+.flex h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 #score-count {
     font-size: 50px;
     font-family: 500;
