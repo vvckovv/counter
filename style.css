@@ -49,27 +49,38 @@ body {
     border: none;
     border-radius: 5px;
     color: #fff;
+    cursor: pointer;
 }
 
 .add-btn:hover {
     background-color: #5014B8;
 }
 
+.add-btn:active {
+    background-color: #5121a3;
+}
+
 .minus-btn {
     background-color: transparent;
     border: none;
     border-radius: 5px;
-    color: #393F47;;
+    color: #393F47;
+    cursor: pointer;
 }
 
-.del-btn {
+.reset-btn {
     background-color: #1fb2ad;
     border: none;
     padding: 0 15px;
     border-radius: 5px;
     color: #fff;
+    cursor: pointer;
 }
 
-.del-btn:hover{
+.reset-btn:hover {
     background-color: #198F85;
+}
+
+.reset-btn:active {
+    background-color: #1f766f;
 }
