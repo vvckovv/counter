@@ -1,30 +1,28 @@
-let score = document.querySelector('.score');
-let minusBtn = document.querySelector('.minus-btn')
-score.textContent = 0;
-if (score.textContent == 0) {
-    minusBtn.style.backgroundColor = ''
-};
+const scoreCount = document.getElementById('score-count');
+const addBtn = document.getElementById('add-btn');
+const minusBtn = document.getElementById('minus-Btn');
+const resetBtn = document.getElementById('reset-btn');
 
-function add() {
-    score.textContent++;
+
+let score = 0;
+
+document.getElementById("add-btn").onclick = function() {
+    score++;
+    scoreCount.textContent = score;
     if (score.textContent >= 1){
         minusBtn.style.backgroundColor = '#D926A9'
-    }
+    }   
 };
 
-function minus() {
-    if (score.textContent >= 1){
-        score.textContent --;
-    }
+document.getElementById("minus-btn").onclick = function () {
+    score--;
+    scoreCount.textContent = score;
+};
 
-    if (score.textContent < 1){
-        minusBtn.style.backgroundColor = ''
+document.getElementById("reset-btn").onclick = function () {
+    score = 0;
+    scoreCount.textContent = score;
+    if (countScore.textContent < 1){
+        subBtn.style.backgroundColor = ''
     }
-}; 
-
-function del() {
-    score.textContent = 0;
-    if (score.textContent < 1){
-        minusBtn.style.backgroundColor = ''
-    }
-}
+};

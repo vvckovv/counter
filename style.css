@@ -33,7 +33,7 @@ body {
     color: #A6ADBA;
 }
 
-.score {
+#score-count {
     font-size: 50px;
     font-family: 500;
 }
@@ -44,7 +44,7 @@ body {
     margin-top: 10px;
 }
 
-.add-btn {
+#add-btn {
     background-color: #6419E6;
     border: none;
     border-radius: 5px;
@@ -52,15 +52,15 @@ body {
     cursor: pointer;
 }
 
-.add-btn:hover {
+#add-btn:hover {
     background-color: #5014B8;
 }
 
-.add-btn:active {
+#add-btn:active {
     background-color: #5121a3;
 }
 
-.minus-btn {
+#minus-btn {
     background-color: transparent;
     border: none;
     border-radius: 5px;
@@ -68,7 +68,7 @@ body {
     cursor: pointer;
 }
 
-.reset-btn {
+#reset-btn {
     background-color: #1fb2ad;
     border: none;
     padding: 0 15px;
@@ -77,10 +77,10 @@ body {
     cursor: pointer;
 }
 
-.reset-btn:hover {
+#reset-btn:hover {
     background-color: #198F85;
 }
 
-.reset-btn:active {
-    background-color: #1f766f;
+#reset-btn:active {
+    background-color: #21877f;
 }
